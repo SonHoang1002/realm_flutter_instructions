@@ -1,0 +1,8 @@
+
+ - Thêm ` realm: ^1.9.0 ` vào file pubspec.yaml
+ - Câu lệnh để generate model : ` dart run realm generate `
+ - Các bước:
+   
+    +  Tạo Model và generate model bằng câu lệnh: tạo model đơn giản trước (các model nhỏ nhất)
+      (frame_model -> photo_model -> project)
+    + Thay thế các hàm toJson, fromJson sang 1 class khác ( vì file generate không được edit content)
